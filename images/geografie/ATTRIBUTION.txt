@@ -1,0 +1,9 @@
+# Wikimedia Commons attributions – Geografie
+# Free licenses only (CC BY / BY-SA / Public domain / CC0).
+
+bg-weltkarte.jpg
+  File: Blue Marble 2002.jpg | Public domain (NASA)
+  https://commons.wikimedia.org/wiki/File:Blue_Marble_2002.jpg
+  NASA Goddard Space Flight Center Image by Reto Stöckli (land surface, shallow water, clouds).
+  Enhancements by Robert Simmon (ocean color, compositing, 3D globes, animation).
+  Local copy: 3840×1920 JPEG thumbnail from Wikimedia Commons (original ~43k×21k).

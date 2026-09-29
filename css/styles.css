@@ -1241,3 +1241,79 @@ body.theme-rom.era-hub {
   transform: translateY(-3px);
   border-color: rgba(170, 109, 153, 0.82);
 }
+
+/* === Geografie chapter theme (Blue Marble / ocean–earth) === */
+body.theme-geografie {
+  --bg: #0b1520;
+  --surface: #152232;
+  --surface-2: #1c2e40;
+  --text: #eef4f8;
+  --muted: #a8b8c6;
+  --accent: #4da3ff;
+  --accent-soft: rgba(77, 163, 255, 0.16);
+  --border: rgba(77, 163, 255, 0.22);
+  --chart-line: rgba(180, 210, 230, 0.07);
+  --era-glow: rgba(77, 163, 255, 0.12);
+  --geografie-bg: url("../images/geografie/bg-weltkarte.jpg");
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(180deg, rgba(8, 16, 28, 0.72), rgba(6, 12, 20, 0.88)),
+    var(--geografie-bg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.theme-geografie .topbar {
+  background: rgba(11, 21, 32, 0.9);
+  border-bottom-color: var(--border);
+}
+
+body.theme-geografie .brand-mark {
+  background: linear-gradient(135deg, #4da3ff, #2a6b9e);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+body.theme-geografie .nav a:hover,
+body.theme-geografie .nav a.active {
+  background: var(--accent-soft);
+}
+
+body.theme-geografie .nav a.active {
+  color: var(--accent);
+}
+
+/* Textkacheln bewusst unverändert belassen (content-panel) */
+
+body.theme-geografie .deckblatt {
+  background:
+    linear-gradient(135deg, rgba(20, 36, 52, 0.88), rgba(10, 18, 28, 0.9)),
+    radial-gradient(circle at 82% 18%, rgba(77, 163, 255, 0.2), transparent 48%),
+    var(--geografie-bg);
+  background-size: auto, auto, cover;
+  background-position: center, center, center;
+  border-color: var(--border);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(238, 244, 248, 0.08);
+}
+
+body.theme-geografie .jump-nav a:hover {
+  background: rgba(77, 163, 255, 0.28);
+  color: var(--text);
+}
+
+body.theme-geografie .heading-link:hover,
+body.theme-geografie .era h3 a:hover,
+body.theme-geografie .sub h4 a:hover {
+  border-bottom-color: rgba(77, 163, 255, 0.55);
+  color: #9ecfff;
+}
+
+body.theme-geografie .page-header h1 {
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.55);
+}
+
+body.theme-geografie .page-header p,
+body.theme-geografie .breadcrumb {
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+}
