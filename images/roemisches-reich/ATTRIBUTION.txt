@@ -1,7 +1,100 @@
+# Wikimedia Commons attributions – Römisches Reich
+# Free licenses only (CC BY / BY-SA / Public domain / CC0).
+
 bg-rom.jpg / card-rom.jpg (center crop of bg)
 Title:  Colosseum in Rome, Italy - April 2007
 Author: DAVID ILIFF (Diliff)
 License: CC BY-SA 2.5
 Source: https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome,_Italy_-_April_2007.jpg
-Direct: https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg
-Note:    4x4 segment panorama of the Colosseum at dusk; card-rom.jpg is a 1200×800 center crop.
+
+rom-shewolf.jpg
+  File: Capitoline she-wolf Musei Capitolini MC1181.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Capitoline_she-wolf_Musei_Capitolini_MC1181.jpg
+
+rom-forum.jpg
+  File: Forum romanum 6k (5760x2097).jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Forum_romanum_6k_(5760x2097).jpg
+
+rom-cicero.png
+  File: Cicero Denounces Catiline in the Roman Senate by Cesare Maccari.png | Public domain
+  https://commons.wikimedia.org/wiki/File:Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari.png
+
+rom-servian.jpg
+  File: Servian Wall.JPG | Public domain
+  https://commons.wikimedia.org/wiki/File:Servian_Wall.JPG
+
+rom-caesar.jpg
+  File: Gaius Iulius Caesar (Vatican Museum).jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Gaius_Iulius_Caesar_(Vatican_Museum).jpg
+
+rom-legionary.jpg
+  File: Roman soldier in lorica segmentata 1-cropped.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Roman_soldier_in_lorica_segmentata_1-cropped.jpg
+
+rom-empire-map.png
+  File: Roman Empire Trajan 117AD.svg (PNG thumb) | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Roman_Empire_Trajan_117AD.svg
+
+rom-augustus.jpg
+  File: Statue-Augustus.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg
+
+rom-ara-pacis.jpg
+  File: Ara Pacis (SW).jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Ara_Pacis_(SW).jpg
+
+rom-colosseum.jpg
+  File: Colosseum_in_Rome,_Italy_-_April_2007.jpg | CC BY-SA 2.5
+  https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome,_Italy_-_April_2007.jpg
+
+rom-pompeii.jpg
+  File: Composition ruins Pompeii.jpg | CC0
+  https://commons.wikimedia.org/wiki/File:Composition_ruins_Pompeii.jpg
+
+rom-pantheon.jpg
+  File: Pantheon Rom 1 cropped.jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg
+
+rom-hadrian-wall.jpg
+  File: Hadrian's Wall west of Housesteads 3.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Hadrian%27s_Wall_west_of_Housesteads_3.jpg
+
+rom-aurelian.jpg
+  File: Aurelian Walls - Porta Asinaria.jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Aurelian_Walls_-_Porta_Asinaria.jpg
+
+rom-diocletian.jpg
+  File: Istanbul - Museo archeol. - Diocleziano (284-305 d.C.) - Foto G. Dall'Orto 28-5-2006.jpg | Attribution / free on Commons
+  https://commons.wikimedia.org/wiki/File:Istanbul_-_Museo_archeol._-_Diocleziano_(284-305_d.C.)_-_Foto_G._Dall%27Orto_28-5-2006.jpg
+
+rom-constantine.jpg
+  File: Bust of Constantine I from York YORYM 1998 23.jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Bust_of_Constantine_I_from_York_YORYM_1998_23.jpg
+
+rom-milvian.jpg
+  File: Battle at the Milvian Bridge, Gérard Audran after Charles Le Brun, 1666-crop.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Battle_at_the_Milvian_Bridge,_G%C3%A9rard_Audran_after_Charles_Le_Brun,_1666-crop.jpg
+
+rom-diocletian-coin.jpg
+  File: Aureus of Diocletian, AD 287.jpg | CC BY-SA 2.5
+  https://commons.wikimedia.org/wiki/File:Aureus_of_Diocletian,_AD_287.jpg
+
+rom-sack.jpg
+  File: Sack_of_Rome_by_the_Visigoths_on_24_August_410_by_JN_Sylvestre_1890.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Sack_of_Rome_by_the_Visigoths_on_24_August_410_by_JN_Sylvestre_1890.jpg
+
+rom-theodoric.jpg
+  File: Mosaic of Theodoric's Palace, Basilica of Sant'Apollinare Nuovo, Ravenna, Italy (6124834801).jpg | CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Mosaic_of_Theodoric%27s_Palace,_Basilica_of_Sant%27Apollinare_Nuovo,_Ravenna,_Italy_(6124834801).jpg
+
+rom-justinian.jpg
+  File: Justinian mosaic, San Vitale, consecrated 547, Ravenna, Italy.jpg | CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Justinian_mosaic,_San_Vitale,_consecrated_547,_Ravenna,_Italy.jpg
+
+rom-hagia.jpg
+  File: Hagia_Sophia_Mars_2013.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg
+
+rom-odoacer.jpg
+  File: Romulus_Augustulus_and_Odoacer.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Romulus_Augustulus_and_Odoacer.jpg

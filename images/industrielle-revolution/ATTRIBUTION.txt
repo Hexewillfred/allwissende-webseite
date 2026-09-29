@@ -1,0 +1,108 @@
+# Wikimedia Commons attributions – Industrielle Revolution
+# Free licenses only (CC BY / BY-SA / Public domain / CC0).
+
+bg-industrie.jpg / card-industrie.jpg – existing theme assets
+
+ir-jenny.jpg
+  File: Spinning jenny.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Spinning_jenny.jpg
+
+ir-arkwright.jpg
+  File: Arkwright-water-frame.jpg | CC BY 3.0
+  https://commons.wikimedia.org/wiki/File:Arkwright-water-frame.jpg
+
+ir-cromford.jpg
+  File: Cromford 1771 mill.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Cromford_1771_mill.jpg
+
+ir-bridgewater.jpg
+  File: Bridgewater Canal, Runcorn.jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Bridgewater_Canal,_Runcorn.jpg
+
+ir-newcomen.jpg
+  File: Dartmouth Newcomen engine.jpg | CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Dartmouth_Newcomen_engine.jpg
+
+ir-watt.png
+  File: SteamEngine_Boulton&Watt_1784.png | Public domain
+  https://commons.wikimedia.org/wiki/File:SteamEngine_Boulton%26Watt_1784.png
+
+ir-coalbrookdale.jpg
+  File: Philipp Jakob Loutherbourg d. J. 002.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Philipp_Jakob_Loutherbourg_d._J._002.jpg
+
+ir-puddling.jpg
+  File: Puddling_furnace.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Puddling_furnace.jpg
+
+ir-rocket.jpg
+  File: Stephenson's Rocket drawing.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Stephenson%27s_Rocket_drawing.jpg
+
+ir-powerloom.jpg
+  File: Powerloom_weaving_in_1835.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Powerloom_weaving_in_1835.jpg
+
+ir-boulton-watt.jpg
+  File: Boulton & Watt steam engine, Sydney Powerhouse Museum, 2014 (15243331353).jpg | CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Boulton_%26_Watt_steam_engine,_Sydney_Powerhouse_Museum,_2014_(15243331353).jpg
+
+ir-manchester.jpg
+  File: Manchester from Kersal Moor William Wylde (1857).jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Manchester_from_Kersal_Moor_William_Wylde_(1857).jpg
+
+ir-london-rail.jpg
+  File: Over London by rail - DPLA - 7a1eea3914854e5c2e498e5fad7f298a.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Over_London_by_rail_-_DPLA_-_7a1eea3914854e5c2e498e5fad7f298a.jpg
+
+ir-chartists.jpg
+  File: Chartist meeting, Kennington Common.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Chartist_meeting,_Kennington_Common.jpg
+
+ir-child-labor.jpg
+  File: Interior of Magnolia Cotton Mills spinning room... NARA 523307.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Interior_of_Magnolia_Cotton_Mills_spinning_room._See_the_little_ones_scattered_through_the_mill._All_work._Magnolia..._-_NARA_-_523307.jpg
+
+ir-hine-mechanic.jpg
+  File: Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg
+
+ir-cockerill.jpg
+  File: John Cockerill Seraing.jpg | CC BY-SA 3.0 lu
+  https://commons.wikimedia.org/wiki/File:John_Cockerill_Seraing.jpg
+
+ir-krupp.jpg
+  File: Krupp Gussstahlfabrik, Essen.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Krupp_Gussstahlfabrik,_Essen.jpg
+
+ir-lowell.jpg
+  File: Lowell, MA - Boott Cotton Mills (Mills No. 1 and No. 2) (5).jpg | CC BY 4.0
+  https://commons.wikimedia.org/wiki/File:Lowell,_MA_-_Boott_Cotton_Mills_(Mills_No._1_and_No._2)_(5).jpg
+
+ir-ruhr.jpg
+  File: Ruhrgebiet Industrie 060922 42 30.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Ruhrgebiet_Industrie_060922_42_30.jpg
+
+ir-edison.jpg
+  File: Thomas_Edison2.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg
+
+ir-bessemer.jpg
+  File: Bessemer_converter.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Bessemer_converter.jpg
+
+ir-basf.jpg
+  File: BASF Ludwigshafen panorama 2023-1.jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:BASF_Ludwigshafen_panorama_2023-1.jpg
+
+ir-assembly.jpg
+  File: Ford_assembly_line_-_1913.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Ford_assembly_line_-_1913.jpg
+
+ir-siemens.jpg
+  File: Werner_von_Siemens.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Werner_von_Siemens.jpg
+
+ir-telephone.jpg
+  File: Alexander Graham Bell.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell.jpg
