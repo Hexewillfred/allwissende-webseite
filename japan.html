@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Japan · Geschichte · Allwissende Webseite</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .deckblatt {
+      position: relative; overflow: hidden; border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: transparent;
+      padding: 2.5rem 1.75rem; box-shadow: var(--shadow); margin-bottom: 1.5rem;
+    }
+    .deckblatt .eyebrow {
+      color: var(--accent); font-size: 0.8rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;
+    }
+    .deckblatt h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.1;
+      margin-bottom: 0.85rem; max-width: 14ch;
+    }
+    .deckblatt .lead { color: var(--muted); font-size: 1.05rem; max-width: 38rem; }
+  </style>
+</head>
+<body class="theme-japan era-hub">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">∞</span>
+        <span>Allwissende Webseite</span>
+      </a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="technik.html">Technik</a>
+        <a href="geografie.html">Geografie</a>
+        <a href="geschichte.html" class="active">Geschichte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p class="breadcrumb">
+      <a href="geschichte.html">Geschichte</a> · Japan
+    </p>
+
+    <section class="deckblatt" aria-label="Deckblatt Japan">
+      <p class="eyebrow">Geschichte · Spezialthema</p>
+      <h1>Japan</h1>
+      <p class="lead">
+        Chronologischer Überblick: Die Timeline verlinkt auf eigene Artikel zu den großen Epochen der japanischen Geschichte.
+      </p>
+      <nav class="jump-nav" aria-label="Epochen">
+        <a href="#fruehzeit-heian">Frühzeit–Heian</a>
+        <a href="#kamakura-sengoku">Kamakura–Sengoku</a>
+        <a href="#edo">Edo/Tokugawa</a>
+        <a href="#meiji-1945">Meiji–1945</a>
+        <a href="#nachkrieg">Nachkriegszeit–heute</a>
+        <a href="#themen">Themen</a>
+      </nav>
+    </section>
+
+    <article class="content-panel" id="timeline">
+      <h2><a class="heading-link" href="#timeline">Timeline der japanischen Geschichte</a></h2>
+      <p style="color: var(--muted); margin-bottom: 1rem;">
+        Kurzüberblick. Ausführliche Texte und Bilder stehen in den jeweiligen Artikelseiten.
+      </p>
+
+      <section class="timeline-entry era-fruehzeit-heian" id="fruehzeit-heian">
+        <h3><a class="heading-link" href="japan-fruehzeit-heian.html">Frühzeit–Heian (ca. bis 1185)</a></h3>
+        <p>Von den frühen Kulturen über Asuka und Nara bis zur Heian-Zeit: Hofkultur, Buddhismuseinführung und der Aufstieg der Kriegerklasse.</p>
+        <a class="read-more" href="japan-fruehzeit-heian.html">Zum Artikel Frühzeit–Heian →</a>
+      </section>
+
+      <section class="timeline-entry era-kamakura-sengoku" id="kamakura-sengoku">
+        <h3><a class="heading-link" href="japan-kamakura-sengoku.html">Kamakura–Sengoku (1185–1600)</a></h3>
+        <p>Shōgunate, Mongoleninvasionen, Muromachi und die Sengoku-Zeit der kriegerischen Provinzfürsten bis zur Einigung.</p>
+        <a class="read-more" href="japan-kamakura-sengoku.html">Zum Artikel Kamakura–Sengoku →</a>
+      </section>
+
+      <section class="timeline-entry era-edo" id="edo">
+        <h3><a class="heading-link" href="japan-edo.html">Edo/Tokugawa (1603–1868)</a></h3>
+        <p>Pax Tokugawa: Isolation, ständische Ordnung, Städtewachstum und kulturelle Blüte unter dem Bakufu in Edo.</p>
+        <a class="read-more" href="japan-edo.html">Zum Artikel Edo/Tokugawa →</a>
+      </section>
+
+      <section class="timeline-entry era-meiji-1945" id="meiji-1945">
+        <h3><a class="heading-link" href="japan-meiji-1945.html">Meiji–1945 (1868–1945)</a></h3>
+        <p>Öffnung, Modernisierung, Imperium und Krieg: von der Meiji-Restauration bis zum Ende des Zweiten Weltkriegs.</p>
+        <a class="read-more" href="japan-meiji-1945.html">Zum Artikel Meiji–1945 →</a>
+      </section>
+
+      <section class="timeline-entry era-nachkrieg" id="nachkrieg">
+        <h3><a class="heading-link" href="japan-nachkrieg.html">Nachkriegszeit–heute (ab 1945)</a></h3>
+        <p>Besatzung, Verfassung, Wirtschaftswunder und Gegenwart: Demokratie, Bündnisse und gesellschaftliche Wandlungen.</p>
+        <a class="read-more" href="japan-nachkrieg.html">Zum Artikel Nachkriegszeit–heute →</a>
+      </section>
+
+      <section class="timeline-entry" id="themen" style="border-left-color: var(--accent); margin-top: 1.75rem;">
+        <h3><a class="heading-link" href="japan-samurai-shogunat.html">Themen: Samurai / Shōgunat</a></h3>
+        <p>Querschnitt über die Epochen: Kriegerstand, Shōgunat und Herrschaftspraxis — ergänzend zur chronologischen Timeline.</p>
+        <a class="read-more" href="japan-samurai-shogunat.html">Zum Artikel Samurai / Shōgunat →</a>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Allwissende Webseite · Geschichte · Japan</p>
+  </footer>
+</body>
+</html>

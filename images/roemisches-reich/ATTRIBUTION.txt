@@ -1,0 +1,7 @@
+bg-rom.jpg / card-rom.jpg (center crop of bg)
+Title:  Colosseum in Rome, Italy - April 2007
+Author: DAVID ILIFF (Diliff)
+License: CC BY-SA 2.5
+Source: https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome,_Italy_-_April_2007.jpg
+Direct: https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg
+Note:    4x4 segment panorama of the Colosseum at dusk; card-rom.jpg is a 1200×800 center crop.

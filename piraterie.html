@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Piraterie · Geschichte · Allwissende Webseite</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .deckblatt {
+      position: relative; overflow: hidden; border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background:
+        transparent;
+      padding: 2.5rem 1.75rem; box-shadow: var(--shadow); margin-bottom: 1.5rem;
+    }
+    .deckblatt .eyebrow {
+      color: var(--accent); font-size: 0.8rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;
+    }
+    .deckblatt h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.1;
+      margin-bottom: 0.85rem; max-width: 14ch;
+    }
+    .deckblatt .lead { color: var(--muted); font-size: 1.05rem; max-width: 38rem; }
+  </style>
+</head>
+<body class="theme-piraterie era-hub">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">∞</span>
+        <span>Allwissende Webseite</span>
+      </a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="technik.html">Technik</a>
+        <a href="geografie.html">Geografie</a>
+        <a href="geschichte.html" class="active">Geschichte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p class="breadcrumb">
+      <a href="geschichte.html">Geschichte</a> · Piraterie
+    </p>
+
+    <section class="deckblatt" aria-label="Deckblatt Piraterie">
+      <p class="eyebrow">Geschichte · Spezialthema</p>
+      <h1>Piraterie</h1>
+      <p class="lead">
+        Überblick und Einstieg: Die Timeline verlinkt auf eigene Artikel pro Epoche.
+      </p>
+      <nav class="jump-nav" aria-label="Epochen">
+        <a href="#antike">Antike</a>
+        <a href="#mittelalter">Mittelalter</a>
+        <a href="#fruehe-neuzeit">Frühe Neuzeit</a>
+        <a href="#goldenes-zeitalter">Goldenes Zeitalter</a>
+        <a href="#19-20-jh">19.–20. Jh.</a>
+        <a href="#moderne">Moderne</a>
+      </nav>
+    </section>
+
+    <article class="content-panel" id="timeline">
+      <h2><a class="heading-link" href="#timeline">Timeline der Piraterie</a></h2>
+      <p style="color: var(--muted); margin-bottom: 1rem;">
+        Kurzüberblick. Ausführliche Texte und Bilder stehen in den jeweiligen Artikelseiten.
+      </p>
+
+      <section class="timeline-entry era-antike" id="antike">
+        <h3><a class="heading-link" href="piraterie-antike.html">Antike (ca. 14. Jh. v. Chr. – 1. Jh. v. Chr.)</a></h3>
+        <p>Seeraub im Mittelmeer von den Seevölkern bis zur kilikischen Piraterie; Einschnitt durch Pompeius 67 v. Chr.</p>
+        <a class="read-more" href="piraterie-antike.html">Zum Artikel Antike →</a>
+      </section>
+
+      <section class="timeline-entry era-mittelalter" id="mittelalter">
+        <h3><a class="heading-link" href="piraterie-mittelalter.html">Mittelalter (ca. 8.–12. Jh.)</a></h3>
+        <p>Wikinger prägen den Seeraub in Europa: Küsten, Flüsse und Binnenstädte von West- bis Osteuropa.</p>
+        <a class="read-more" href="piraterie-mittelalter.html">Zum Artikel Mittelalter →</a>
+      </section>
+
+      <section class="timeline-entry era-fruehe-neuzeit" id="fruehe-neuzeit">
+        <h3><a class="heading-link" href="piraterie-fruehe-neuzeit.html">Frühe Neuzeit: Kaperfahrt und Barbaresken (16.–frühes 19. Jh.)</a></h3>
+        <p>Kaperbriefe europäischer Mächte und Barbaresken-Korsaren; Ende weitgehend mit der Eroberung Algiers 1830.</p>
+        <a class="read-more" href="piraterie-fruehe-neuzeit.html">Zum Artikel Frühe Neuzeit →</a>
+      </section>
+
+      <section class="timeline-entry era-goldenes-zeitalter" id="goldenes-zeitalter">
+        <h3><a class="heading-link" href="piraterie-goldenes-zeitalter.html">Goldenes Zeitalter (ca. 1650–1730)</a></h3>
+        <p>Höhepunkt atlantischer und indischer Piraterie: Bukaniere, Pirate Round, bekannte Kapitäne wie Blackbeard.</p>
+        <a class="read-more" href="piraterie-goldenes-zeitalter.html">Zum Artikel Goldenes Zeitalter →</a>
+      </section>
+
+      <section class="timeline-entry era-19-20" id="19-20-jh">
+        <h3><a class="heading-link" href="piraterie-19-20.html">19.–20. Jh.</a></h3>
+        <p>Karibik-Piraterie weitgehend vorbei; regionaler Seeraub bleibt, z. B. Straße von Malakka.</p>
+        <a class="read-more" href="piraterie-19-20.html">Zum Artikel 19.–20. Jh. →</a>
+      </section>
+
+      <section class="timeline-entry era-moderne" id="moderne">
+        <h3><a class="heading-link" href="piraterie-moderne.html">Moderne (ab ca. 1990er)</a></h3>
+        <p>Somalia / Horn von Afrika als Hotspot um 2008–2012; weitere Schwerpunkte vor Westafrika und in Südostasien.</p>
+        <a class="read-more" href="piraterie-moderne.html">Zum Artikel Moderne →</a>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Allwissende Webseite · Geschichte · Piraterie</p>
+  </footer>
+</body>
+</html>

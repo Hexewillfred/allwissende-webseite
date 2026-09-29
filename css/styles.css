@@ -1,0 +1,1243 @@
+:root {
+  --bg: #0f1419;
+  --surface: #1a2332;
+  --surface-2: #243044;
+  --text: #e8eef6;
+  --muted: #9aabc0;
+  --accent: #4da3ff;
+  --accent-soft: rgba(77, 163, 255, 0.15);
+  --border: rgba(255, 255, 255, 0.08);
+  --radius: 14px;
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  --font: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background:
+    radial-gradient(ellipse 900px 500px at 10% -10%, rgba(77, 163, 255, 0.18), transparent 55%),
+    radial-gradient(ellipse 700px 400px at 90% 0%, rgba(120, 90, 255, 0.12), transparent 50%),
+    var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(14px);
+  background: rgba(15, 20, 25, 0.85);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.9rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.brand-mark {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #4da3ff, #7b5cff);
+  display: grid;
+  place-items: center;
+  font-size: 0.95rem;
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: flex-end;
+}
+
+.nav a {
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav a:hover,
+.nav a.active {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.nav a.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.hero {
+  padding: 2.5rem 0 2rem;
+}
+
+.hero-kicker {
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  max-width: 16ch;
+}
+
+.hero p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  max-width: 42rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s, border-color 0.15s;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(77, 163, 255, 0.35);
+}
+
+.card-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 1.2rem;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+.card .more {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.page-header {
+  margin-bottom: 1.75rem;
+}
+
+.page-header h1 {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: var(--muted);
+  max-width: 40rem;
+}
+
+.content-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.75rem;
+  box-shadow: var(--shadow);
+}
+
+.content-panel .placeholder {
+  color: var(--muted);
+  border: 1px dashed rgba(154, 171, 192, 0.35);
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.content-panel h2 {
+  margin: 1.5rem 0 0.6rem;
+  font-size: 1.25rem;
+}
+
+.content-panel h2:first-child {
+  margin-top: 0;
+}
+
+.content-panel p + p {
+  margin-top: 0.85rem;
+}
+
+.sources {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.sources h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+  color: var(--muted);
+}
+
+.sources ol {
+  padding-left: 1.2rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.25rem 2rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .topbar-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    justify-content: flex-start;
+  }
+}
+
+/* Article / topic pages */
+.breadcrumb { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.25rem; }
+.breadcrumb a { color: var(--accent); }
+.jump-nav { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 1rem 0 0; }
+.jump-nav a {
+  padding: 0.4rem 0.8rem; border-radius: 999px;
+  background: var(--accent-soft); color: var(--accent);
+  font-size: 0.88rem; font-weight: 600;
+}
+.jump-nav a:hover { background: rgba(77, 163, 255, 0.28); color: var(--text); }
+.heading-link, .era h3 a, .sub h4 a { color: var(--accent); border-bottom: 1px solid transparent; }
+.heading-link:hover, .era h3 a:hover, .sub h4 a:hover { border-bottom-color: rgba(77, 163, 255, 0.55); color: #7cbcff; }
+.figure {
+  margin: 1rem 0 1.2rem; border-radius: 12px; overflow: hidden;
+  border: 1px solid var(--border); background: #0c121a;
+}
+.figure img { display: block; width: 100%; height: auto; }
+.figure.portrait { max-width: 280px; }
+.figure.portrait img { aspect-ratio: 3/4; object-fit: cover; }
+.figure figcaption {
+  padding: 0.65rem 0.9rem; font-size: 0.82rem; color: var(--muted);
+  background: rgba(255, 255, 255, 0.02);
+}
+.portrait-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 1.2rem;
+}
+.portrait-grid .figure { margin: 0; }
+.sub { margin-top: 1.4rem; scroll-margin-top: 5rem; }
+.sub h2, .sub h3, .sub h4 { margin-bottom: 0.55rem; }
+.sub p { color: var(--muted); }
+.sub p + p { margin-top: 0.75rem; }
+.sub ul { margin: 0.7rem 0 0 1.1rem; color: var(--muted); }
+.sub li + li { margin-top: 0.4rem; }
+.article-hero {
+  border-radius: var(--radius); border: 1px solid var(--border);
+  overflow: hidden; margin-bottom: 1.5rem; box-shadow: var(--shadow);
+}
+.article-hero img { display: block; width: 100%; max-height: 360px; object-fit: cover; }
+.article-hero .caption {
+  padding: 0.85rem 1.1rem; background: var(--surface); color: var(--muted); font-size: 0.9rem;
+}
+.timeline-entry {
+  display: grid; gap: 0.75rem;
+  padding: 1.1rem 0; border-top: 1px solid var(--border);
+  scroll-margin-top: 5rem;
+}
+.timeline-entry:first-of-type { border-top: none; padding-top: 0; }
+.timeline-entry h3 { font-size: 1.1rem; }
+.timeline-entry p { color: var(--muted); }
+.timeline-entry .read-more {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  color: var(--accent); font-weight: 600; font-size: 0.95rem;
+}
+.sources a { color: var(--accent); word-break: break-word; }
+
+.steckbrief-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.4rem;
+}
+.steckbrief {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.steckbrief img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  background: #0c121a;
+}
+.steckbrief .body {
+  padding: 0.95rem 1rem 1.1rem;
+}
+.steckbrief h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+.steckbrief .meta {
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 0.65rem;
+}
+.steckbrief dl {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  gap: 0.35rem 0.6rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.steckbrief dt { color: var(--text); font-weight: 600; }
+.steckbrief dd { margin: 0; }
+.phase {
+  margin-top: 1.6rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  scroll-margin-top: 5rem;
+}
+.phase:first-of-type {
+  margin-top: 0.6rem;
+  padding-top: 0;
+  border-top: none;
+}
+.phase h3 { margin-bottom: 0.7rem; font-size: 1.15rem; }
+
+/* === Piraterie chapter theme (Seekarte) === */
+body.theme-piraterie {
+  --bg: #0a1218;
+  --surface: #14202c;
+  --surface-2: #1c2c3c;
+  --text: #e8eef2;
+  --muted: #9aadb8;
+  --accent: #c9a46a;
+  --accent-soft: rgba(201, 164, 106, 0.16);
+  --border: rgba(201, 164, 106, 0.14);
+  --chart-line: rgba(180, 200, 220, 0.07);
+  --era-glow: rgba(201, 164, 106, 0.12);
+  --pirate-map: url("../images/piraterie/bg-piratenkarte.jpg");
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(180deg, rgba(6, 12, 18, 0.72), rgba(6, 12, 18, 0.86)),
+    var(--pirate-map);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.theme-piraterie .topbar {
+  background: rgba(10, 18, 24, 0.88);
+  border-bottom-color: var(--border);
+}
+
+body.theme-piraterie .brand-mark {
+  background: linear-gradient(135deg, #c9a46a, #7a5c2e);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+body.theme-piraterie .nav a:hover,
+body.theme-piraterie .nav a.active {
+  background: var(--accent-soft);
+}
+
+body.theme-piraterie .nav a.active {
+  color: var(--accent);
+}
+
+/* Textkacheln bewusst unverändert belassen (content-panel) */
+
+body.theme-piraterie .deckblatt {
+  background:
+    linear-gradient(135deg, rgba(12, 28, 42, 0.88), rgba(18, 22, 32, 0.9)),
+    radial-gradient(circle at 82% 18%, rgba(201, 164, 106, 0.22), transparent 48%),
+    var(--pirate-map);
+  background-size: auto, auto, cover;
+  background-position: center, center, center;
+  border-color: var(--border);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(201, 164, 106, 0.08);
+}
+
+body.theme-piraterie .jump-nav a:hover {
+  background: rgba(201, 164, 106, 0.28);
+  color: var(--text);
+}
+
+body.theme-piraterie .heading-link:hover,
+body.theme-piraterie .era h3 a:hover,
+body.theme-piraterie .sub h4 a:hover {
+  border-bottom-color: rgba(201, 164, 106, 0.55);
+  color: #e0c28a;
+}
+
+body.theme-piraterie .timeline-entry {
+  border-left: 3px solid var(--era-accent, var(--accent));
+  padding-left: 1rem;
+  margin-left: 0.15rem;
+  border-radius: 0 10px 10px 0;
+  transition: background 0.15s;
+}
+
+body.theme-piraterie .timeline-entry:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+body.theme-piraterie .timeline-entry .read-more {
+  color: var(--era-accent, var(--accent));
+}
+
+body.theme-piraterie .timeline-entry h3 a {
+  color: var(--era-accent, var(--accent));
+}
+
+body.theme-piraterie.era-antike,
+body.theme-piraterie .timeline-entry.era-antike {
+  --era-accent: #d4a574;
+  --era-glow: rgba(212, 165, 116, 0.16);
+  --accent: #d4a574;
+  --accent-soft: rgba(212, 165, 116, 0.16);
+}
+
+body.theme-piraterie.era-mittelalter,
+body.theme-piraterie .timeline-entry.era-mittelalter {
+  --era-accent: #8fb0c9;
+  --era-glow: rgba(143, 176, 201, 0.16);
+  --accent: #8fb0c9;
+  --accent-soft: rgba(143, 176, 201, 0.16);
+}
+
+body.theme-piraterie.era-fruehe-neuzeit,
+body.theme-piraterie .timeline-entry.era-fruehe-neuzeit {
+  --era-accent: #5cbfb0;
+  --era-glow: rgba(92, 191, 176, 0.15);
+  --accent: #5cbfb0;
+  --accent-soft: rgba(92, 191, 176, 0.15);
+}
+
+body.theme-piraterie.era-goldenes-zeitalter,
+body.theme-piraterie .timeline-entry.era-goldenes-zeitalter {
+  --era-accent: #e0b34d;
+  --era-glow: rgba(224, 179, 77, 0.18);
+  --accent: #e0b34d;
+  --accent-soft: rgba(224, 179, 77, 0.18);
+}
+
+body.theme-piraterie.era-19-20,
+body.theme-piraterie .timeline-entry.era-19-20 {
+  --era-accent: #b08a5a;
+  --era-glow: rgba(176, 138, 90, 0.15);
+  --accent: #b08a5a;
+  --accent-soft: rgba(176, 138, 90, 0.15);
+}
+
+body.theme-piraterie.era-moderne,
+body.theme-piraterie .timeline-entry.era-moderne {
+  --era-accent: #6bb8d4;
+  --era-glow: rgba(107, 184, 212, 0.16);
+  --accent: #6bb8d4;
+  --accent-soft: rgba(107, 184, 212, 0.16);
+}
+
+body.theme-piraterie.era-hub {
+  --accent: #c9a46a;
+  --accent-soft: rgba(201, 164, 106, 0.16);
+  --era-glow: rgba(201, 164, 106, 0.12);
+}
+
+body.theme-piraterie .steckbrief .meta {
+  color: var(--accent);
+}
+
+body.theme-piraterie .figure,
+body.theme-piraterie .article-hero {
+  border-color: var(--border);
+}
+
+/* Geschichte-Kachel: sieht aus wie eine alte Seekarte */
+.card.card-piraterie {
+  position: relative;
+  overflow: hidden;
+  min-height: 210px;
+  color: #f3ebe0;
+  border: 2px solid rgba(201, 164, 106, 0.55);
+  border-radius: 12px;
+  background:
+    linear-gradient(165deg, rgba(18, 14, 8, 0.45), rgba(8, 12, 16, 0.72)),
+    url("../images/piraterie/card-seekarte.jpg") center / cover no-repeat;
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.4),
+    inset 0 0 0 1px rgba(255, 230, 180, 0.12);
+}
+
+.card.card-piraterie::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px dashed rgba(201, 164, 106, 0.35);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.card.card-piraterie > * {
+  position: relative;
+  z-index: 1;
+}
+
+.card.card-piraterie .card-icon {
+  background: rgba(20, 16, 10, 0.55);
+  color: #e0c28a;
+  border: 1px solid rgba(201, 164, 106, 0.35);
+}
+
+.card.card-piraterie h2 {
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.65);
+}
+
+.card.card-piraterie p {
+  color: #d8d0c4;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+}
+
+.card.card-piraterie .more {
+  color: #e0c28a;
+  font-weight: 700;
+}
+
+.card.card-piraterie:hover {
+  transform: translateY(-3px);
+  border-color: rgba(224, 179, 77, 0.75);
+}
+
+/* === Japan chapter theme (Himeji / hinomaru rot–weiß) === */
+body.theme-japan {
+  --bg: #120a0c;
+  --surface: #1a1014;
+  --surface-2: #24181c;
+  --text: #f5f0eb;
+  --muted: #b8a8a4;
+  --accent: #c8102e;
+  --accent-soft: rgba(200, 16, 46, 0.16);
+  --border: rgba(200, 16, 46, 0.22);
+  --chart-line: rgba(255, 240, 235, 0.06);
+  --era-glow: rgba(200, 16, 46, 0.12);
+  --himeji: url("../images/japan/bg-himeji.jpg");
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(180deg, rgba(28, 8, 12, 0.72), rgba(12, 6, 8, 0.88)),
+    var(--himeji);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.theme-japan .topbar {
+  background: rgba(18, 10, 12, 0.88);
+  border-bottom-color: var(--border);
+}
+
+body.theme-japan .brand-mark {
+  background: linear-gradient(135deg, #c8102e, #f5f0eb);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+body.theme-japan .nav a:hover,
+body.theme-japan .nav a.active {
+  background: var(--accent-soft);
+}
+
+body.theme-japan .nav a.active {
+  color: var(--accent);
+}
+
+/* Textkacheln bewusst unverändert belassen (content-panel) */
+
+body.theme-japan .deckblatt {
+  background:
+    linear-gradient(135deg, rgba(28, 10, 14, 0.88), rgba(18, 10, 12, 0.9)),
+    radial-gradient(circle at 82% 18%, rgba(200, 16, 46, 0.22), transparent 48%),
+    var(--himeji);
+  background-size: auto, auto, cover;
+  background-position: center, center, center;
+  border-color: var(--border);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(245, 240, 235, 0.08);
+}
+
+body.theme-japan .jump-nav a:hover {
+  background: rgba(200, 16, 46, 0.28);
+  color: var(--text);
+}
+
+body.theme-japan .heading-link:hover,
+body.theme-japan .era h3 a:hover,
+body.theme-japan .sub h4 a:hover {
+  border-bottom-color: rgba(200, 16, 46, 0.55);
+  color: #f0a8a8;
+}
+
+body.theme-japan .timeline-entry {
+  border-left: 3px solid var(--era-accent, var(--accent));
+  padding-left: 1rem;
+  margin-left: 0.15rem;
+  border-radius: 0 10px 10px 0;
+  transition: background 0.15s;
+}
+
+body.theme-japan .timeline-entry:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+body.theme-japan .timeline-entry .read-more {
+  color: var(--era-accent, var(--accent));
+}
+
+body.theme-japan .timeline-entry h3 a {
+  color: var(--era-accent, var(--accent));
+}
+
+body.theme-japan.era-fruehzeit-heian,
+body.theme-japan .timeline-entry.era-fruehzeit-heian {
+  --era-accent: #e07a5f;
+  --era-glow: rgba(224, 122, 95, 0.16);
+  --accent: #e07a5f;
+  --accent-soft: rgba(224, 122, 95, 0.16);
+}
+
+body.theme-japan.era-kamakura-sengoku,
+body.theme-japan .timeline-entry.era-kamakura-sengoku {
+  --era-accent: #bc002d;
+  --era-glow: rgba(188, 0, 45, 0.16);
+  --accent: #bc002d;
+  --accent-soft: rgba(188, 0, 45, 0.16);
+}
+
+body.theme-japan.era-edo,
+body.theme-japan .timeline-entry.era-edo {
+  --era-accent: #d64545;
+  --era-glow: rgba(214, 69, 69, 0.16);
+  --accent: #d64545;
+  --accent-soft: rgba(214, 69, 69, 0.16);
+}
+
+body.theme-japan.era-meiji-1945,
+body.theme-japan .timeline-entry.era-meiji-1945 {
+  --era-accent: #c9a04a;
+  --era-glow: rgba(201, 160, 74, 0.17);
+  --accent: #c9a04a;
+  --accent-soft: rgba(201, 160, 74, 0.17);
+}
+
+body.theme-japan.era-nachkrieg,
+body.theme-japan .timeline-entry.era-nachkrieg {
+  --era-accent: #e6392f;
+  --era-glow: rgba(230, 57, 47, 0.16);
+  --accent: #e6392f;
+  --accent-soft: rgba(230, 57, 47, 0.16);
+}
+
+body.theme-japan.era-hub {
+  --accent: #c8102e;
+  --accent-soft: rgba(200, 16, 46, 0.16);
+  --era-glow: rgba(200, 16, 46, 0.12);
+}
+
+body.theme-japan .steckbrief .meta {
+  color: var(--accent);
+}
+
+body.theme-japan .figure,
+body.theme-japan .article-hero {
+  border-color: var(--border);
+}
+
+body.theme-japan .article-hero-placeholder .hero-slot {
+  min-height: 200px;
+  background:
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 10px,
+      rgba(200, 16, 46, 0.04) 10px,
+      rgba(200, 16, 46, 0.04) 20px
+    ),
+    rgba(255, 255, 255, 0.02);
+  border-bottom: 1px dashed rgba(200, 16, 46, 0.25);
+}
+
+.slot-box {
+  color: var(--muted);
+  border: 1px dashed rgba(154, 171, 192, 0.35);
+  border-radius: 12px;
+  padding: 1.25rem 1.4rem;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+body.theme-japan .slot-box {
+  border-color: rgba(200, 16, 46, 0.28);
+}
+
+/* Geschichte-Kachel: Himeji / rot–weiß */
+.card.card-japan {
+  position: relative;
+  overflow: hidden;
+  min-height: 210px;
+  color: #f8f4f0;
+  border: 2px solid rgba(200, 16, 46, 0.55);
+  border-radius: 12px;
+  background:
+    linear-gradient(165deg, rgba(28, 8, 12, 0.5), rgba(12, 6, 8, 0.75)),
+    url("../images/japan/card-himeji.jpg") center / cover no-repeat;
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.4),
+    inset 0 0 0 1px rgba(255, 240, 235, 0.12);
+}
+
+.card.card-japan::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px dashed rgba(245, 240, 235, 0.35);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.card.card-japan > * {
+  position: relative;
+  z-index: 1;
+}
+
+.card.card-japan .card-icon {
+  background: rgba(28, 8, 12, 0.55);
+  color: #f0c8c8;
+  border: 1px solid rgba(200, 16, 46, 0.4);
+}
+
+.card.card-japan h2 {
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.65);
+}
+
+.card.card-japan p {
+  color: #e8dcd6;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+}
+
+.card.card-japan .more {
+  color: #f0a8a8;
+  font-weight: 700;
+}
+
+.card.card-japan:hover {
+  transform: translateY(-3px);
+  border-color: rgba(230, 57, 47, 0.75);
+}
+
+/* Geografie: leichte Akzentfarben für Kontinent-Kacheln */
+.card.card-kontinent {
+  border-color: var(--continent-border);
+}
+
+.card.card-kontinent .card-icon {
+  background: var(--continent-soft);
+  color: var(--continent-accent);
+  border: 1px solid var(--continent-border);
+}
+
+.card.card-kontinent .more {
+  color: var(--continent-accent);
+}
+
+.card.card-kontinent:hover {
+  border-color: var(--continent-accent);
+}
+
+.card.card-afrika {
+  --continent-accent: #d7a34c;
+  --continent-soft: rgba(215, 163, 76, 0.14);
+  --continent-border: rgba(215, 163, 76, 0.35);
+}
+
+.card.card-antarktika {
+  --continent-accent: #8ac8e8;
+  --continent-soft: rgba(138, 200, 232, 0.14);
+  --continent-border: rgba(138, 200, 232, 0.35);
+}
+
+.card.card-asien {
+  --continent-accent: #d27c8f;
+  --continent-soft: rgba(210, 124, 143, 0.14);
+  --continent-border: rgba(210, 124, 143, 0.35);
+}
+
+.card.card-australien-ozeanien {
+  --continent-accent: #83c995;
+  --continent-soft: rgba(131, 201, 149, 0.14);
+  --continent-border: rgba(131, 201, 149, 0.35);
+}
+
+.card.card-europa {
+  --continent-accent: #a797e8;
+  --continent-soft: rgba(167, 151, 232, 0.14);
+  --continent-border: rgba(167, 151, 232, 0.35);
+}
+
+.card.card-nordamerika {
+  --continent-accent: #6cb7d1;
+  --continent-soft: rgba(108, 183, 209, 0.14);
+  --continent-border: rgba(108, 183, 209, 0.35);
+}
+
+.card.card-suedamerika {
+  --continent-accent: #db8b68;
+  --continent-soft: rgba(219, 139, 104, 0.14);
+  --continent-border: rgba(219, 139, 104, 0.35);
+}
+
+.continent-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.back-link {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.back-link:hover {
+  color: var(--text);
+}
+
+/* === Industrielle Revolution chapter theme (charcoal / steel / copper) === */
+body.theme-industrie {
+  --bg: #15191b;
+  --surface: #22282b;
+  --surface-2: #2c3437;
+  --text: #ece9e3;
+  --muted: #a9abad;
+  --accent: #c3844a;
+  --accent-soft: rgba(195, 132, 74, 0.16);
+  --border: rgba(195, 132, 74, 0.2);
+  --chart-line: rgba(180, 200, 210, 0.07);
+  --era-glow: rgba(195, 132, 74, 0.12);
+  --industrie-bg: url("../images/industrielle-revolution/bg-industrie.jpg");
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(180deg, rgba(12, 16, 18, 0.74), rgba(10, 14, 16, 0.86)),
+    var(--industrie-bg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.theme-industrie .topbar {
+  background: rgba(21, 25, 27, 0.9);
+  border-bottom-color: var(--border);
+}
+
+body.theme-industrie .brand-mark {
+  background: linear-gradient(135deg, #c3844a, #68777c);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+body.theme-industrie .nav a:hover,
+body.theme-industrie .nav a.active {
+  background: var(--accent-soft);
+}
+
+body.theme-industrie .nav a.active {
+  color: var(--accent);
+}
+
+body.theme-industrie .deckblatt {
+  background:
+    linear-gradient(135deg, rgba(28, 34, 37, 0.88), rgba(14, 18, 20, 0.9)),
+    radial-gradient(circle at 82% 18%, rgba(195, 132, 74, 0.2), transparent 48%),
+    var(--industrie-bg);
+  background-size: auto, auto, cover;
+  background-position: center, center, center;
+  border-color: var(--border);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(236, 233, 227, 0.08);
+}
+
+body.theme-industrie .jump-nav a:hover {
+  background: rgba(195, 132, 74, 0.28);
+  color: var(--text);
+}
+
+body.theme-industrie .heading-link:hover,
+body.theme-industrie .era h3 a:hover,
+body.theme-industrie .sub h4 a:hover {
+  border-bottom-color: rgba(195, 132, 74, 0.55);
+  color: #e0ae7d;
+}
+
+body.theme-industrie .timeline-entry {
+  border-left: 3px solid var(--era-accent, var(--accent));
+  padding-left: 1rem;
+  margin-left: 0.15rem;
+  border-radius: 0 10px 10px 0;
+  transition: background 0.15s;
+}
+
+body.theme-industrie .timeline-entry:hover {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+body.theme-industrie .timeline-entry .read-more,
+body.theme-industrie .timeline-entry h3 a {
+  color: var(--era-accent, var(--accent));
+}
+
+body.theme-industrie.era-vorbedingungen,
+body.theme-industrie .timeline-entry.era-vorbedingungen {
+  --era-accent: #c3844a;
+  --era-glow: rgba(195, 132, 74, 0.16);
+  --accent: #c3844a;
+  --accent-soft: rgba(195, 132, 74, 0.16);
+}
+
+body.theme-industrie.era-dampf-fabrik,
+body.theme-industrie .timeline-entry.era-dampf-fabrik {
+  --era-accent: #8e9da2;
+  --era-glow: rgba(142, 157, 162, 0.16);
+  --accent: #8e9da2;
+  --accent-soft: rgba(142, 157, 162, 0.16);
+}
+
+body.theme-industrie.era-gesellschaft,
+body.theme-industrie .timeline-entry.era-gesellschaft {
+  --era-accent: #b36a52;
+  --era-glow: rgba(179, 106, 82, 0.16);
+  --accent: #b36a52;
+  --accent-soft: rgba(179, 106, 82, 0.16);
+}
+
+body.theme-industrie.era-ausbreitung,
+body.theme-industrie .timeline-entry.era-ausbreitung {
+  --era-accent: #c7a25a;
+  --era-glow: rgba(199, 162, 90, 0.17);
+  --accent: #c7a25a;
+  --accent-soft: rgba(199, 162, 90, 0.17);
+}
+
+body.theme-industrie.era-zweite,
+body.theme-industrie .timeline-entry.era-zweite {
+  --era-accent: #d28a56;
+  --era-glow: rgba(210, 138, 86, 0.17);
+  --accent: #d28a56;
+  --accent-soft: rgba(210, 138, 86, 0.17);
+}
+
+body.theme-industrie.era-hub {
+  --accent: #c3844a;
+  --accent-soft: rgba(195, 132, 74, 0.16);
+  --era-glow: rgba(195, 132, 74, 0.12);
+}
+
+/* Geschichte-Kachel: Stahl, Kohle und Kupfer */
+.card.card-industrie {
+  position: relative;
+  overflow: hidden;
+  min-height: 210px;
+  color: #f0ede7;
+  border: 2px solid rgba(195, 132, 74, 0.58);
+  border-radius: 12px;
+  background:
+    linear-gradient(165deg, rgba(28, 34, 37, 0.55), rgba(12, 16, 18, 0.78)),
+    url("../images/industrielle-revolution/card-industrie.jpg") center / cover no-repeat;
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.4),
+    inset 0 0 0 1px rgba(236, 233, 227, 0.1);
+}
+
+.card.card-industrie::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px dashed rgba(195, 132, 74, 0.35);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.card.card-industrie > * {
+  position: relative;
+  z-index: 1;
+}
+
+.card.card-industrie .card-icon {
+  background: rgba(20, 24, 25, 0.62);
+  color: #e0ae7d;
+  border: 1px solid rgba(195, 132, 74, 0.4);
+}
+
+.card.card-industrie h2 {
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.65);
+}
+
+.card.card-industrie p {
+  color: #d1d2cf;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+}
+
+.card.card-industrie .more {
+  color: #e0ae7d;
+  font-weight: 700;
+}
+
+.card.card-industrie:hover {
+  transform: translateY(-3px);
+  border-color: rgba(210, 138, 86, 0.8);
+}
+
+
+/* === Römisches-Reich-Kapitel (Marmor / Terrakotta / kaiserliches Purpur) === */
+body.theme-rom {
+  --bg: #171518;
+  --surface: #282326;
+  --surface-2: #352d31;
+  --text: #f1e9df;
+  --muted: #b9adb0;
+  --accent: #c47761;
+  --accent-soft: rgba(196, 119, 97, 0.16);
+  --border: rgba(220, 183, 164, 0.2);
+  --era-glow: rgba(196, 119, 97, 0.12);
+  --rom-bg: url("../images/roemisches-reich/bg-rom.jpg");
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(180deg, rgba(40, 22, 28, 0.72), rgba(18, 14, 18, 0.88)),
+    var(--rom-bg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.theme-rom .topbar {
+  background: rgba(24, 20, 23, 0.91);
+  border-bottom-color: var(--border);
+}
+
+body.theme-rom .brand-mark {
+  background: linear-gradient(135deg, #c47761, #835276);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+body.theme-rom .nav a:hover,
+body.theme-rom .nav a.active {
+  background: var(--accent-soft);
+}
+
+body.theme-rom .nav a.active {
+  color: var(--accent);
+}
+
+body.theme-rom .deckblatt {
+  background:
+    linear-gradient(135deg, rgba(57, 45, 45, 0.88), rgba(25, 20, 24, 0.9)),
+    radial-gradient(circle at 84% 16%, rgba(126, 72, 113, 0.22), transparent 48%),
+    var(--rom-bg);
+  background-size: auto, auto, cover;
+  background-position: center, center, center;
+  border-color: var(--border);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.44), inset 0 1px 0 rgba(241, 233, 223, 0.08);
+}
+
+body.theme-rom .jump-nav a:hover {
+  background: rgba(196, 119, 97, 0.28);
+  color: var(--text);
+}
+
+body.theme-rom .heading-link:hover,
+body.theme-rom .era h3 a:hover,
+body.theme-rom .sub h4 a:hover {
+  border-bottom-color: rgba(196, 119, 97, 0.55);
+  color: #e0a38f;
+}
+
+body.theme-rom .timeline-entry {
+  border-left: 3px solid var(--era-accent, var(--accent));
+  padding-left: 1rem;
+  margin-left: 0.15rem;
+  border-radius: 0 10px 10px 0;
+  transition: background 0.15s;
+}
+
+body.theme-rom .timeline-entry:hover {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+body.theme-rom .timeline-entry .read-more,
+body.theme-rom .timeline-entry h3 a {
+  color: var(--era-accent, var(--accent));
+}
+
+body.theme-rom.era-koenigszeit-fruehe-republik,
+body.theme-rom .timeline-entry.era-koenigszeit-fruehe-republik {
+  --era-accent: #c47761;
+  --accent: #c47761;
+  --accent-soft: rgba(196, 119, 97, 0.16);
+}
+
+body.theme-rom.era-mittlere-spaete-republik,
+body.theme-rom .timeline-entry.era-mittlere-spaete-republik {
+  --era-accent: #c39a62;
+  --accent: #c39a62;
+  --accent-soft: rgba(195, 154, 98, 0.17);
+}
+
+body.theme-rom.era-fruehe-kaiserzeit,
+body.theme-rom .timeline-entry.era-fruehe-kaiserzeit {
+  --era-accent: #aa6d99;
+  --accent: #aa6d99;
+  --accent-soft: rgba(170, 109, 153, 0.17);
+}
+
+body.theme-rom.era-krise-spaetantike,
+body.theme-rom .timeline-entry.era-krise-spaetantike {
+  --era-accent: #8e779d;
+  --accent: #8e779d;
+  --accent-soft: rgba(142, 119, 157, 0.17);
+}
+
+body.theme-rom.era-untergang-osten,
+body.theme-rom .timeline-entry.era-untergang-osten {
+  --era-accent: #9e806e;
+  --accent: #9e806e;
+  --accent-soft: rgba(158, 128, 110, 0.17);
+}
+
+body.theme-rom.era-hub {
+  --accent: #c47761;
+  --accent-soft: rgba(196, 119, 97, 0.16);
+  --era-glow: rgba(196, 119, 97, 0.12);
+}
+
+/* Geschichte-Kachel: Kolosseum / Terrakotta–Purpur */
+.card.card-rom {
+  position: relative;
+  overflow: hidden;
+  min-height: 210px;
+  color: #f1e9df;
+  border: 2px solid rgba(196, 119, 97, 0.58);
+  border-radius: 12px;
+  background:
+    linear-gradient(165deg, rgba(67, 48, 51, 0.55), rgba(25, 19, 24, 0.78)),
+    url("../images/roemisches-reich/card-rom.jpg") center / cover no-repeat;
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.4),
+    inset 0 0 0 1px rgba(241, 233, 223, 0.1);
+}
+
+.card.card-rom::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px dashed rgba(220, 183, 164, 0.34);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.card.card-rom > * {
+  position: relative;
+  z-index: 1;
+}
+
+.card.card-rom .card-icon {
+  background: rgba(28, 21, 26, 0.66);
+  color: #e0a38f;
+  border: 1px solid rgba(196, 119, 97, 0.4);
+}
+
+.card.card-rom h2 {
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.65);
+}
+
+.card.card-rom p {
+  color: #d7c9c4;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+}
+
+.card.card-rom .more {
+  color: #e0a38f;
+  font-weight: 700;
+}
+
+.card.card-rom:hover {
+  transform: translateY(-3px);
+  border-color: rgba(170, 109, 153, 0.82);
+}

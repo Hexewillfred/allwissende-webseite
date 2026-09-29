@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Römisches Reich · Geschichte · Allwissende Webseite</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .deckblatt {
+      position: relative; overflow: hidden; border-radius: var(--radius);
+      border: 1px solid var(--border); background: transparent;
+      padding: 2.5rem 1.75rem; box-shadow: var(--shadow); margin-bottom: 1.5rem;
+    }
+    .deckblatt .eyebrow {
+      color: var(--accent); font-size: 0.8rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;
+    }
+    .deckblatt h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.1;
+      margin-bottom: 0.85rem; max-width: 18ch;
+    }
+    .deckblatt .lead { color: var(--muted); font-size: 1.05rem; max-width: 38rem; }
+  </style>
+</head>
+<body class="theme-rom era-hub">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">∞</span>
+        <span>Allwissende Webseite</span>
+      </a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="technik.html">Technik</a>
+        <a href="geografie.html">Geografie</a>
+        <a href="geschichte.html" class="active">Geschichte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p class="breadcrumb">
+      <a href="geschichte.html">Geschichte</a> · Römisches Reich
+    </p>
+
+    <section class="deckblatt" aria-label="Deckblatt Römisches Reich">
+      <p class="eyebrow">Geschichte · Spezialthema</p>
+      <h1>Römisches Reich</h1>
+      <p class="lead">
+        Chronologischer Überblick von der Königszeit und Republik über Kaiserzeit und Spätantike bis zum Fortleben des Ostens.
+      </p>
+      <nav class="jump-nav" aria-label="Epochen">
+        <a href="#koenigszeit-fruehe-republik">Königszeit &amp; frühe Republik</a>
+        <a href="#mittlere-spaete-republik">Mittlere/späte Republik</a>
+        <a href="#fruehe-kaiserzeit">Frühe Kaiserzeit</a>
+        <a href="#krise-spaetantike">Krise des 3. Jh. &amp; Spätantike</a>
+        <a href="#untergang-osten">Untergang im Westen / Osten</a>
+      </nav>
+    </section>
+
+    <article class="content-panel" id="timeline">
+      <h2><a class="heading-link" href="#timeline">Timeline des Römischen Reiches</a></h2>
+      <p style="color: var(--muted); margin-bottom: 1rem;">
+        Kurzüberblick. Ausführliche Texte werden in den jeweiligen Artikelseiten ergänzt.
+      </p>
+
+      <section class="timeline-entry era-koenigszeit-fruehe-republik" id="koenigszeit-fruehe-republik">
+        <h3><a class="heading-link" href="rom-koenigszeit-fruehe-republik.html">Königszeit &amp; frühe Republik (ca. 753–264 v. Chr.)</a></h3>
+        <p>Von den traditionellen Anfängen Roms bis zur Festigung republikanischer Institutionen und der frühen Expansion in Italien.</p>
+        <a class="read-more" href="rom-koenigszeit-fruehe-republik.html">Zum Artikel Königszeit &amp; frühe Republik →</a>
+      </section>
+
+      <section class="timeline-entry era-mittlere-spaete-republik" id="mittlere-spaete-republik">
+        <h3><a class="heading-link" href="rom-mittlere-spaete-republik.html">Mittlere/späte Republik (Expansion, Bürgerkriege), 264–27 v. Chr.</a></h3>
+        <p>Expansion im Mittelmeerraum, soziale Spannungen und Bürgerkriege führen zum Ende der Republik.</p>
+        <a class="read-more" href="rom-mittlere-spaete-republik.html">Zum Artikel Mittlere/späte Republik →</a>
+      </section>
+
+      <section class="timeline-entry era-fruehe-kaiserzeit" id="fruehe-kaiserzeit">
+        <h3><a class="heading-link" href="rom-fruehe-kaiserzeit.html">Frühe Kaiserzeit (Prinzipat, Augusteisch bis Hochkaiserzeit), 27 v. Chr.–235 n. Chr.</a></h3>
+        <p>Das Prinzipat von Augustus bis zur Hochkaiserzeit verbindet monarchische Leitung mit republikanischen Formen.</p>
+        <a class="read-more" href="rom-fruehe-kaiserzeit.html">Zum Artikel Frühe Kaiserzeit →</a>
+      </section>
+
+      <section class="timeline-entry era-krise-spaetantike" id="krise-spaetantike">
+        <h3><a class="heading-link" href="rom-krise-spaetantike.html">Krise des 3. Jh. &amp; Spätantike (235–395)</a></h3>
+        <p>Politische Umbrüche, Reformen, neue religiöse Rahmenbedingungen und die Neuordnung des Reiches prägen die Spätantike.</p>
+        <a class="read-more" href="rom-krise-spaetantike.html">Zum Artikel Krise des 3. Jh. &amp; Spätantike →</a>
+      </section>
+
+      <section class="timeline-entry era-untergang-osten" id="untergang-osten">
+        <h3><a class="heading-link" href="rom-untergang-osten.html">Untergang im Westen / Fortleben im Osten (bis ca. 476 bzw. Ausblick Byzanz)</a></h3>
+        <p>Die westliche Kaiserherrschaft endet traditionell 476; im Osten reicht die römische Staatstradition als Ausblick nach Byzanz weiter.</p>
+        <a class="read-more" href="rom-untergang-osten.html">Zum Artikel Untergang im Westen / Fortleben im Osten →</a>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Allwissende Webseite · Geschichte · Römisches Reich</p>
+  </footer>
+</body>
+</html>

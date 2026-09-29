@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Industrielle Revolution · Geschichte · Allwissende Webseite</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .deckblatt {
+      position: relative; overflow: hidden; border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: transparent;
+      padding: 2.5rem 1.75rem; box-shadow: var(--shadow); margin-bottom: 1.5rem;
+    }
+    .deckblatt .eyebrow {
+      color: var(--accent); font-size: 0.8rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;
+    }
+    .deckblatt h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.1;
+      margin-bottom: 0.85rem; max-width: 18ch;
+    }
+    .deckblatt .lead { color: var(--muted); font-size: 1.05rem; max-width: 38rem; }
+  </style>
+</head>
+<body class="theme-industrie era-hub">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">∞</span>
+        <span>Allwissende Webseite</span>
+      </a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="index.html">Start</a>
+        <a href="technik.html">Technik</a>
+        <a href="geografie.html">Geografie</a>
+        <a href="geschichte.html" class="active">Geschichte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p class="breadcrumb">
+      <a href="geschichte.html">Geschichte</a> · Industrielle Revolution
+    </p>
+
+    <section class="deckblatt" aria-label="Deckblatt Industrielle Revolution">
+      <p class="eyebrow">Geschichte · Spezialthema</p>
+      <h1>Industrielle Revolution</h1>
+      <p class="lead">
+        Chronologischer Überblick vom frühen Wandel in Großbritannien bis zur zweiten industriellen Revolution um 1914.
+      </p>
+      <nav class="jump-nav" aria-label="Epochen">
+        <a href="#vorbedingungen">Vorbedingungen &amp; Anfänge</a>
+        <a href="#dampf-fabrik">Dampf, Fabrik, Kohle &amp; Eisen</a>
+        <a href="#gesellschaft">Gesellschaft, Arbeit, Urbanisierung</a>
+        <a href="#ausbreitung">Ausbreitung in Europa &amp; USA</a>
+        <a href="#zweite">Zweite industrielle Revolution</a>
+      </nav>
+    </section>
+
+    <article class="content-panel" id="timeline">
+      <h2><a class="heading-link" href="#timeline">Timeline der Industriellen Revolution</a></h2>
+      <p style="color: var(--muted); margin-bottom: 1rem;">
+        Kurzüberblick. Ausführliche Texte stehen in den jeweiligen Artikelseiten.
+      </p>
+
+      <section class="timeline-entry era-vorbedingungen" id="vorbedingungen">
+        <h3><a class="heading-link" href="ir-vorbedingungen.html">Vorbedingungen &amp; Anfänge (Großbritannien, ca. 1760–1800)</a></h3>
+        <p>Wirtschaftliche, politische und technische Voraussetzungen des frühen Industrialisierungsprozesses in Großbritannien.</p>
+        <a class="read-more" href="ir-vorbedingungen.html">Zum Artikel Vorbedingungen &amp; Anfänge →</a>
+      </section>
+
+      <section class="timeline-entry era-dampf-fabrik" id="dampf-fabrik">
+        <h3><a class="heading-link" href="ir-dampf-fabrik.html">Dampf, Fabrik, Kohle &amp; Eisen</a></h3>
+        <p>Dampfkraft und Fabriksystem verändern Produktion, Energieeinsatz und die Verarbeitung von Kohle und Eisen.</p>
+        <a class="read-more" href="ir-dampf-fabrik.html">Zum Artikel Dampf, Fabrik, Kohle &amp; Eisen →</a>
+      </section>
+
+      <section class="timeline-entry era-gesellschaft" id="gesellschaft">
+        <h3><a class="heading-link" href="ir-gesellschaft.html">Gesellschaft, Arbeit, Urbanisierung</a></h3>
+        <p>Neue Arbeitswelten, soziale Spannungen und das rasche Wachstum industrieller Städte prägen den Wandel.</p>
+        <a class="read-more" href="ir-gesellschaft.html">Zum Artikel Gesellschaft, Arbeit, Urbanisierung →</a>
+      </section>
+
+      <section class="timeline-entry era-ausbreitung" id="ausbreitung">
+        <h3><a class="heading-link" href="ir-ausbreitung.html">Ausbreitung in Europa &amp; USA</a></h3>
+        <p>Industrialisierung erreicht weitere Regionen und bildet neue wirtschaftliche Zentren in Europa und den USA.</p>
+        <a class="read-more" href="ir-ausbreitung.html">Zum Artikel Ausbreitung in Europa &amp; USA →</a>
+      </section>
+
+      <section class="timeline-entry era-zweite" id="zweite">
+        <h3><a class="heading-link" href="ir-zweite.html">Zweite industrielle Revolution (Chemie, Elektrizität, Stahl) bis ca. 1914</a></h3>
+        <p>Chemische Verfahren, Elektrizität und Stahl verändern Industrie, Infrastruktur und den Alltag bis zum Beginn des Ersten Weltkriegs.</p>
+        <a class="read-more" href="ir-zweite.html">Zum Artikel Zweite industrielle Revolution →</a>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Allwissende Webseite · Geschichte · Industrielle Revolution</p>
+  </footer>
+</body>
+</html>
