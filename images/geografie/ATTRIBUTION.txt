@@ -7,3 +7,123 @@ bg-weltkarte.jpg
   NASA Goddard Space Flight Center Image by Reto Stöckli (land surface, shallow water, clouds).
   Enhancements by Robert Simmon (ocean color, compositing, 3D globes, animation).
   Local copy: 3840×1920 JPEG thumbnail from Wikimedia Commons (original ~43k×21k).
+
+# Continent intro images (added 2026-09-30)
+
+europa-alpen.jpg
+  File: Matterhorn from Domhütte - 2.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Matterhorn_from_Domh%C3%BCtte_-_2.jpg
+  Photo: chil (Camptocamp.org); derivative: Zacharie Grossen
+
+europa-mittelmeer.jpg
+  File: Positano Sea.JPG | CC BY 4.0
+  https://commons.wikimedia.org/wiki/File:Positano_Sea.JPG
+  Author: JeCCo
+
+europa-nordlicht.jpg
+  File: Northern Lights in Iceland.jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Northern_Lights_in_Iceland.jpg
+  Author: Lauren Stephan
+
+europa-paris.jpg
+  File: Paris vue d'ensemble tour Eiffel.jpg | CC BY 3.0
+  https://commons.wikimedia.org/wiki/File:Paris_vue_d%27ensemble_tour_Eiffel.jpg
+  Taxiarchos228; cropped/modified by Poke2001
+
+afrika-sahara.jpg
+  File: Erg Chebbi, Morocco (Unsplash).jpg | CC0
+  https://commons.wikimedia.org/wiki/File:Erg_Chebbi,_Morocco_(Unsplash).jpg
+  Author: Rubén Bagüés (rubavi78)
+
+afrika-victoriafaelle.jpg
+  File: Victoria Falls.jpg | CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Victoria_Falls.jpg
+  Author: Ferdinand Reus (via Flickr)
+
+afrika-serengeti.jpg
+  File: Serengeti National Park, Tanzania - panoramio.jpg | CC BY 3.0
+  https://commons.wikimedia.org/wiki/File:Serengeti_National_Park,_Tanzania_-_panoramio.jpg
+  Author: Michelle Maria
+
+asien-himalaya.jpg
+  File: Mount Everest as seen from Drukair2.jpg | CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2.jpg
+  (Wikimedia Commons)
+
+asien-gobi.jpg
+  File: Khongoryn Els.jpg | CC BY 4.0
+  https://commons.wikimedia.org/wiki/File:Khongoryn_Els.jpg
+  Author: Josep Renalias (Lohen11)
+
+asien-terrassen.jpg
+  File: Banaue Rice Terraces.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Banaue_Rice_Terraces.jpg
+  Author: Bangaliboy (en.wikipedia)
+
+asien-tokio.jpg
+  File: Tokyo Tower at night.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Tokyo_Tower_at_night.jpg
+  Author: Douglas P Perkins (Douglaspperkins)
+
+nordamerika-rockies.jpg
+  File: Moraine Lake 17092005.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg
+
+nordamerika-grand-canyon.jpg
+  File: Grand Canyon South Rim at Sunset.jpg | CC0
+  https://commons.wikimedia.org/wiki/File:Grand_Canyon_South_Rim_at_Sunset.jpg
+  Author: Mgimelfarb
+
+nordamerika-nyc.jpg
+  File: Lower Manhattan from Jersey City November 2014 panorama 3.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Jersey_City_November_2014_panorama_3.jpg
+
+suedamerika-anden.jpg
+  File: Torres del Paine1.jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Torres_del_Paine1.jpg
+
+suedamerika-amazonas.jpg
+  File: Amazon Rainforest.jpg | CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Amazon_Rainforest.jpg
+  Author: Antonio Campoy (via Flickr)
+
+suedamerika-iguazu.jpg
+  File: Iguaçu Falls.jpg | CC BY-SA 1.0
+  https://commons.wikimedia.org/wiki/File:Igua%C3%A7u_Falls.jpg
+  Author: (WT-shared) Joesanto
+
+australien-uluru.jpg
+  File: Uluru (Helicopter view)-crop.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Uluru_(Helicopter_view)-crop.jpg
+
+australien-barrier-reef.jpg
+  File: Coral Outcrop Flynn Reef.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Coral_Outcrop_Flynn_Reef.jpg
+
+australien-neuseeland.jpg
+  File: Aoraki Mount Cook.JPG | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Aoraki_Mount_Cook.JPG
+
+australien-sydney.jpg
+  File: Sydney Opera House - Dec 2008.jpg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_-_Dec_2008.jpg
+  Author: Diliff (DAVID ILIFF)
+
+antarktika-schelfeis.jpg
+  File: Ross Ice Shelf.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File:Ross_Ice_Shelf.jpg
+
+antarktika-pinguine.jpg
+  File: Aptenodytes forsteri.jpg | Public domain (scan of 1844 work)
+  https://commons.wikimedia.org/wiki/File:Aptenodytes_forsteri.jpg
+  Lithograph: Charles Joseph Hullmandel / The zoology of the voyage of H.M.S. Erebus & Terror
+
+antarktika-aurora.jpg
+  File: Aurora Australis at the South Pole (4860012723).jpg | Public domain (NSF)
+  https://commons.wikimedia.org/wiki/File:Aurora_Australis_at_the_South_Pole_(4860012723).jpg
+  Credit: Keith Vanderlinde, National Science Foundation
+
+antarktika-station.jpg
+  File: McMurdo Station.jpg | CC BY-SA 3.0 / 2.5 / 2.0 / 1.0
+  https://commons.wikimedia.org/wiki/File:McMurdo_Station.jpg
+  Author: Gaelen Marsden
