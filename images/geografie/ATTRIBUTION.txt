@@ -127,3 +127,67 @@ antarktika-station.jpg
   File: McMurdo Station.jpg | CC BY-SA 3.0 / 2.5 / 2.0 / 1.0
   https://commons.wikimedia.org/wiki/File:McMurdo_Station.jpg
   Author: Gaelen Marsden
+
+# Querschnitt Klima / Gebirge-Tektonik / Meere (added 2026-09-30)
+
+klima-zonen.jpg
+  File: Köppen-Geiger Climate Classification Map (1980–2016) no borders.png | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File%3AK%C3%B6ppen-Geiger_Climate_Classification_Map_%281980%E2%80%932016%29_no_borders.png
+  Author: Beck, H.E., Zimmermann, N. E., McVicar, T. R., Vergopolan, N., Berg, A., &amp; Wood, E. F.
+
+klima-zirkulation.jpg
+  File: Earth Global Circulation - en.svg | CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File%3AEarth_Global_Circulation_-_en.svg
+  Author: Kaidor
+
+klima-wueste.jpg
+  File: Libya 4985 Tadrart Acacus Luca Galuzzi 2007.jpg | CC BY-SA 2.5
+  https://commons.wikimedia.org/wiki/File%3ALibya_4985_Tadrart_Acacus_Luca_Galuzzi_2007.jpg
+  Author: Luca Galuzzi (Lucag)
+
+klima-gletscher.jpg
+  File: Aletschgletscher-Eggishorn.jpg | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File%3AAletschgletscher-Eggishorn.jpg
+  Author: Tobias Alt, Tobi 87
+
+tektonik-platten.jpg
+  File: Tectonic plates.png | Public domain
+  https://commons.wikimedia.org/wiki/File%3ATectonic_plates.png
+  Author: Map:USGS
+Description:Muriel Gottrop~commonswiki
+
+tektonik-himalaya.jpg
+  File: PK786 AP-BID Boeing 777 flying over Himalaya mountain range (6780355167).jpg | CC BY-SA 2.0
+  https://commons.wikimedia.org/wiki/File%3APK786_AP-BID_Boeing_777_flying_over_Himalaya_mountain_range_%286780355167%29.jpg
+  Author: Aleem Yousaf
+
+tektonik-vulkan.jpg
+  File: MSH80 eruption mount st helens 05-18-80-dramatic-edit.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File%3AMSH80_eruption_mount_st_helens_05-18-80-dramatic-edit.jpg
+  Author: Austin Post
+
+tektonik-atlantik.jpg
+  File: Atlantic bathymetry.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File%3AAtlantic_bathymetry.jpg
+  Author: NOAA
+
+meere-ozeane.jpg
+  File: World Ocean Basins.png | CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File%3AWorld_Ocean_Basins.png
+  Author: Dafa HQ
+
+meere-korallen.jpg
+  File: Underwater photo of coral reef.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File%3AUnderwater_photo_of_coral_reef.jpg
+  Author: Jerry Reid, U.S. Fish and Wildlife Service
+
+meere-wellen.jpg
+  File: Breaking waves (Pacific Ocean shoreline at Heceta Head beach, Oregon, USA) 18.jpg | CC BY 2.0
+  https://commons.wikimedia.org/wiki/File%3ABreaking_waves_%28Pacific_Ocean_shoreline_at_Heceta_Head_beach%2C_Oregon%2C_USA%29_18.jpg
+  Author: James St. John
+
+meere-golfstrom.jpg
+  File: Gulf Stream Sea Surface Currents and Temperatures NASA SVS.jpg | Public domain
+  https://commons.wikimedia.org/wiki/File%3AGulf_Stream_Sea_Surface_Currents_and_Temperatures_NASA_SVS.jpg
+  Author: Greg Shirah (lead animator)
+
